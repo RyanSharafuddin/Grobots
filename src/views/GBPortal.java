@@ -25,7 +25,7 @@ import java.util.List;
 
 import javax.swing.JPanel;
 
-import Rendering.GBProjection;
+import simulation.GBProjection;
 import sides.RobotType;
 import sides.Side;
 import simulation.GBBlast;

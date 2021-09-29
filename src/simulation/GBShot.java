@@ -10,7 +10,7 @@ package simulation;
 import java.awt.Color;
 import java.awt.Graphics;
 
-import Rendering.GBProjection;
+import simulation.GBProjection;
 import sides.Side;
 import support.FinePoint;
 
