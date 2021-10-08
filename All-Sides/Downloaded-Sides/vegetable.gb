@@ -1,0 +1,13 @@
+#side Vegetable
+#color FD4
+#type Vegetable
+#hardware
+  solar-cells .4
+  constructor .4
+  armor 50
+  processor 2
+#code
+do
+  autoconstruct
+forever
+#end

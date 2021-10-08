@@ -1,0 +1,47 @@
+#side Inert
+#author Fuddin
+#date October 3, 2021
+#color FFA500
+
+#seed 1 1 1 2 3
+
+#type Square
+  #decoration 000000 square
+  #hardware
+    processor 1 5
+    engine 1 ; cost is 800 * max power
+    armor 5
+    energy 50 20
+
+  #code
+    do
+    forever
+
+#type Circle
+  #decoration 000000 circle
+  #hardware
+    processor 1 5
+    engine 1 ; cost is 800 * max power
+    armor 5
+    energy 50 20
+
+  #code
+    do
+    forever
+
+#type Triangle
+  #decoration 000000 triangle
+  #hardware
+    processor 1 5
+    engine 1 ; cost is 800 * max power
+    armor 5
+    energy 50 20
+
+  #code
+    0
+    0
+    seek-location
+    do
+    forever
+
+#end
