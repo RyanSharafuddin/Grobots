@@ -121,6 +121,13 @@ public class GBWorld extends GBObjectWorld {
 
 	public void addSeed(Side side, FinePoint where) {
 		try {
+			/*
+			 *	The cost variable below represents how much 'currency' you start with: 
+			 *  It's equal to the initial seed value (set in rules) minus the penalty per type
+			 *  (also set in rules) * the number of types. After making as many seeds as possible,
+			 *  it then gives remaining energy to constructor (see hardware.constructor for how that
+			 *  works).
+			*/
 			double cost = seedValue - seedTypePenalty * side.getTypeCount();
 			// give side a number
 			if (side.getID() == 0)
